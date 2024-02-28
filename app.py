@@ -1,9 +1,12 @@
 from flask import Flask, request, render_template, session, redirect, url_for
 from flask_socketio import join_room, leave_room, send, SocketIO
+from dotenv import load_dotenv
+import os
 from room_manager import RoomManager
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "key"
+load_dotenv()
+app.config["SECRET_KEY"] = os.getenv("secret_key")
 socketio = SocketIO(app)
 room_manager = RoomManager(app)
 
@@ -58,7 +61,7 @@ def message(data):
 
 
 @socketio.on("connect")
-def connect(auth):
+def connect():
     room_code = session.get("room")
     name = session.get("name")
     if not room_code or not name:
