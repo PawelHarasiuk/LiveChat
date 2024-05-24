@@ -1,4 +1,4 @@
-# Chat Application Readme
+# Chat Application
 
 This is a chat application developed using Flask and Flask-SocketIO. It allows users to create and join chat rooms where they can exchange messages in real-time.
 
