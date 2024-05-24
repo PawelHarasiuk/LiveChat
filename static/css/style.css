@@ -23,9 +23,7 @@
 }
 
 .message-box {
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
+  border: 2px solid black;
   border-radius: 10px;
   background-color: whitesmoke;
   height: 80vh;
@@ -59,8 +57,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 
 .muted {
