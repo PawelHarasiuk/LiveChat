@@ -8,6 +8,8 @@ This is a chat application developed using Flask and Flask-SocketIO. It allows u
 - **Real-time Messaging:** Messages are delivered instantly to all participants in a room.
 - **Dynamic User Count:** The application keeps track of the number of users in each room and updates it in real-time.
 - **Simple Interface:** The user interface is designed to be intuitive and easy to use.
+  
+<img width="1225" alt="Zrzut ekranu 2024-05-25 o 01 11 06" src="https://github.com/PawelHarasiuk/LiveChat/assets/96013656/eab3c495-faa0-4826-a973-ea0fb2556fd6">
 
 ## Usage
 1. **Home Page:**
