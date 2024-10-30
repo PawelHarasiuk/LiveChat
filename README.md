@@ -30,6 +30,3 @@ This is a chat application developed using Flask and Flask-SocketIO. It allows u
 ## Dependencies
 - Flask
 - Flask-SocketIO
-
-## About
-This project is a demonstration of building a real-time chat application using Python and Flask. It can be further extended with additional features such as user authentication, message persistence, and improved UI/UX.
